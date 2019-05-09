@@ -1,0 +1,7 @@
+
+entity ORDERS {
+	checkedOutDate Instant,
+	checkedOutBy String,
+	orderNumber Long
+}
+
