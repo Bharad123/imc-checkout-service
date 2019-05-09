@@ -1,0 +1,28 @@
+{
+    "name": "ORDERS",
+    "fields": [
+        {
+            "fieldName": "checkedOutDate",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "checkedOutBy",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "orderNumber",
+            "fieldType": "Long"
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190509152819",
+    "entityTableName": "orders",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "ImcCheckoutService",
+    "applications": "*",
+    "microserviceName": "ImcCheckoutService"
+}
