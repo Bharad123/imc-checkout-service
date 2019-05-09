@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "ImcCheckoutService",
+    "packageName": "com.imc.checkout.service",
+    "packageFolder": "com/imc/checkout/service",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": "true",
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.0.0",
+    "jwtSecretKey": "MGY0NGE3ZTQ1OThlOWRlN2I5MjYyNGFmY2IwMzUzNTg1YjJjZTcwNTE4YzFkZjI5NTAxOGE4ZTIyODdmOTBhOWFlOGY3MjAxODAzYzQyYjY3OTQ2YzAxZDVkM2U4MDI4ZTM0ZmQ4Y2I2ZTliMjdmNTQyNTA1MGQ5NDRlZWQ4YjQ=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "Bharad123",
+  "repository-name": "imc-checkout-service"
+}

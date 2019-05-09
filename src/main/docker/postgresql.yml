@@ -1,0 +1,11 @@
+version: '2'
+services:
+  imccheckoutservice-postgresql:
+    image: postgres:11.2
+    # volumes:
+    #     - ~/volumes/jhipster/ImcCheckoutService/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=ImcCheckoutService
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
